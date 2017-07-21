@@ -1,0 +1,12 @@
+* D:\2017\PROJETOS PESSOAIS 2017\LighterBoard\Draft1.asc
+XU1 No1 N001 N002 0 AmpOut LT1001
+Vin No1 0 PULSE(0 5 1p 1p 1p 1m 2m)
+Vcc N002 0 12v
+R2 AmpOut N001 100k
+R3 AmpOut 0 1k
+R1 N001 0 50k
+.op
+.tran 0 10m 0 500u startup
+.lib LTC.lib
+.backanno
+.end
